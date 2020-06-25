@@ -1,0 +1,40 @@
+.main__button-medium {
+  padding: .7rem 2rem;
+  border-radius: 50px;
+  border-style: none;
+  background-color: $nickel;
+  color: $white;
+  width: 14em;
+  margin-bottom: 1em;
+
+
+    &:hover{
+    color: $white;
+    background-color: $light-gray;
+    }
+
+    &:focus{
+    border: 1px solid;
+    border-color: $light-gray;
+  }
+}
+
+.main__button-small {
+  padding: .7rem 2rem;
+  border-radius: 50px;
+  border-style: none;
+  background-color: $nickel;
+  color: $white;
+  width: 10em;
+  margin-bottom: 1em;
+
+    &:hover{
+    color: $white;
+    background-color: $light-gray;
+    }
+
+    &:focus{
+    border: 1px solid;
+    border-color: $light-gray;
+    }
+}

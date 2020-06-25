@@ -1,0 +1,43 @@
+.header__title{
+  font-family: $playfair;
+  font-style: italic;
+  font-weight: $black-italic;
+  font-size: $xx-large;
+}
+
+.main{
+  font-family: $roboto;
+  font-weight: $regular;
+  font-size: $medium;
+}
+
+.main__span{
+  font-family: $playfair;
+  font-weight: $regular;
+}
+
+.main__span-2{
+  color: $fuzzy-wuzzy;
+}
+
+
+.main__about{
+  font-size: $small;
+}
+
+.main__about-name{
+  font-family: $playfair;
+  font-weight: $black-italic;
+  font-style: italic;
+}
+
+.main__about-contact{
+  color: $fuzzy-wuzzy;
+  font-weight: $roboto-light;
+  font-size: $large;
+
+    &:hover{
+    color: $raisin-black;
+    text-decoration: none;
+    }
+}
